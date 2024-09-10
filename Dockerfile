@@ -1,4 +1,5 @@
 FROM node:14
+LABEL org.opencontainers.image.source="https://github.com/aldo3241/a433-microservices"
 WORKDIR /app
 COPY . .
 ENV NODE_ENV=production DB_HOST=item-db
